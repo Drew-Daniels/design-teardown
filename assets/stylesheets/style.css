@@ -48,3 +48,7 @@ table {
 }
 /* CSS RESET */
 /* MY CODE */
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
