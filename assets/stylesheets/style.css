@@ -49,6 +49,16 @@ table {
 /* CSS RESET */
 /* MY CODE */
 
+/* HIGHEST priority is what your eye is drawn to FIRST */
+/* LOWEST priority is what your eye is drawn to LAST */
+:root {
+	--p1-bgcolor: #000; 
+	--p2-bgcolor: #242424;
+	--p3-bgcolor: #7a7a7a;
+	--p4-bgcolor: #bdbdbd;
+	--p5-bgcolor: #fff;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 }
