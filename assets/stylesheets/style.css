@@ -49,16 +49,106 @@ table {
 /* CSS RESET */
 /* MY CODE */
 
+/* 'p' is for priority */
 /* HIGHEST priority is what your eye is drawn to FIRST */
 /* LOWEST priority is what your eye is drawn to LAST */
 :root {
+	/* Background Colors */
 	--p1-bgcolor: #000; 
 	--p2-bgcolor: #242424;
 	--p3-bgcolor: #7a7a7a;
 	--p4-bgcolor: #bdbdbd;
 	--p5-bgcolor: #fff;
+
+	/* Font Colors */
+	--p1-fontcolor: #000;
+	--p2-fontcolor: #242424;
+	--p3-fontcolor: #7a7a7a;
+	--p4-fontcolor: #bdbdbd;
+	--p5-fontcolor: #fff;
 }
 
 body {
 	font-family: 'Nunito', sans-serif;
+	background-color: var(--p5-bgcolor);
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+nav li {
+	display: flex;
+	align-items: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.searchbar {
+	width: 30%;
+	height: 40px;
+}
+
+.btn-base {
+	border-radius: 5px;
+}
+
+.toolbar-base {
+	display: flex;
+	width: 100vw;
+	justify-content: space-around;
+}
+
+.toolbar-main {
+	background-color: var(--p3-bgcolor);
+}
+
+.toolbar-alt {
+	background-color: var(--p4-bgcolor);
+}
+
+.nav-primary {
+	height: 100px;
+	align-items: center;
+}
+
+.nav-secondary {
+	height: 100px;
+	width: 100%;
+	align-items: center;
+}
+
+.primary-nav-list {
+	background-color: var(--p5-bgcolor);
+}
+
+.secondary-nav-list {
+
+}
+
+.primary-toolbar-item {
+	font-size: 24px;
+	font-weight: 900;
+	padding: 10px;
+}
+
+.secondary-nav-item {
+	font-size: 18px;
+	font-weight: 800;
+	/* padding: 10px; */
+	background-color: var(--p2-bgcolor);
 }
