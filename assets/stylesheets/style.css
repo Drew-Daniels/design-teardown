@@ -98,9 +98,21 @@ a:visited {
 	color: inherit;
 }
 
+.searchbar-container {
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+}
+
 .searchbar {
-	width: 30%;
+	width: 200px;
 	height: 40px;
+	border-radius: 5px;
+	display: flex;
+}
+.searchbar-input {
+	border: none;
+	border-radius: 0 5px 5px 0;
 }
 
 .btn-base {
@@ -110,7 +122,7 @@ a:visited {
 .toolbar-base {
 	display: flex;
 	width: 100vw;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .toolbar-main {
@@ -124,6 +136,7 @@ a:visited {
 .nav-primary {
 	height: 100px;
 	align-items: center;
+	margin-left: 50px;
 }
 
 .nav-secondary {
@@ -140,15 +153,35 @@ a:visited {
 
 }
 
-.primary-toolbar-item {
+.primary-toolbar-item-base {
 	font-size: 24px;
 	font-weight: 900;
+}
+
+.primary-toolbar-item-anchor {
 	padding: 10px;
+}
+
+.primary-toolbar-item-btn {
+	margin-left: 10px;
 }
 
 .secondary-nav-item {
 	font-size: 18px;
 	font-weight: 800;
-	/* padding: 10px; */
+	padding: 10px;
 	background-color: var(--p2-bgcolor);
+	border-radius: 5px;
+}
+
+.search-btn {
+    background: white;
+    border: none;
+	border-radius: 5px 0 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icon-large {
+	height: 50px;
 }
