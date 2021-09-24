@@ -73,6 +73,16 @@ body {
 	background-color: var(--p5-bgcolor);
 }
 
+footer {
+	background-color: var(--p2-bgcolor);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--p5-bgcolor);
+	font-size: 15px;
+}
+
 nav {
 	display: flex;
 	justify-content: center;
@@ -96,6 +106,15 @@ a:link {
 
 a:visited {
 	color: inherit;
+}
+
+.horizontal-flex {
+	display: flex;
+}
+
+.vertical-flex {
+	display: flex;
+	flex-direction: column;
 }
 
 .searchbar-container {
@@ -134,13 +153,14 @@ a:visited {
 }
 
 .nav-primary {
-	height: 100px;
+	height: 75px;
+	width: 70%;
 	align-items: center;
 	margin-left: 50px;
 }
 
 .nav-secondary {
-	height: 100px;
+	height: 50px;
 	width: 100%;
 	align-items: center;
 }
@@ -167,9 +187,9 @@ a:visited {
 }
 
 .secondary-nav-item {
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 800;
-	padding: 10px;
+	padding: 8px;
 	background-color: var(--p2-bgcolor);
 	border-radius: 5px;
 }
@@ -183,5 +203,32 @@ a:visited {
 }
 
 .icon-large {
-	height: 50px;
+	height: 75px;
+}
+
+.magazine-topics-list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: circle;
+}
+
+.magazine-topics-item {
+	display: inline;
+	font-size: 18px;
+}
+
+.col-one-third {
+	width: 33.33%;
+}
+
+.col-two-thirds {
+	width: 66.66%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.italic {
+	font-style: italic;
 }
