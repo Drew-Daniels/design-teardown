@@ -171,10 +171,6 @@ a:visited {
 	background-color: var(--p5-bgcolor);
 }
 
-.secondary-nav-list {
-
-}
-
 .primary-toolbar-item-base {
 	font-size: 24px;
 	font-weight: 900;
@@ -270,4 +266,62 @@ a:link.footer-link {
 
 .footer-item {
 	flex-basis: 30%;
+}
+
+/* Main */
+
+h1 {
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+.featured-articles-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 70%;
+	padding-left: 25px;
+	line-height: 24px;
+}
+
+.featured-article-metadata-container {
+	display: flex;
+}
+
+.featured-article {
+	display: flex;
+}
+
+.author-picture-container {
+	display: flex;
+	width: 30%;
+	transform: rotate(345deg);
+	justify-content: center;
+}
+
+.author-picture-p1 {
+	height: 125px;
+}
+
+.author-picture-p2 {
+	height: 75px;
+}
+
+.article {
+	margin: 10px 0;
+}
+
+a:link.primary-anchor {
+	text-decoration: underline;
+	color: var(--p2-fontcolor);
+}
+
+a:link.secondary-anchor {
+	text-decoration: underline;
+	color: var(--p3-fontcolor);
+}
+
+time {
+	font-weight: 200;
 }
