@@ -145,7 +145,11 @@ a:visited {
 	font-size: 18px;
 	text-transform: capitalize;
 	border-radius: 8px;
-	padding: 5px;
+	padding: 10px;
+}
+
+.btn-card {
+	margin: 25px 25px 0 25px;
 }
 
 .aside-header {
@@ -383,6 +387,39 @@ h1 {
 	font-size: 12px;
 	text-align: center;
 	color: var(--p4-fontcolor)
+}
+
+a > img {
+	vertical-align: middle;
+}
+
+.more-link-container {
+	padding: 50px;
+	text-align: center;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--p3-bgcolor);
+	margin: 0 5px 0 5px;
+	padding: 30px;
+	height: 200px;
+}
+
+.more-link {
+	border-bottom: 4px solid var(--p1-bgcolor);
+}
+
+a:link.card-header {
+	text-decoration: underline;
 }
 
 a:link.primary-anchor {
