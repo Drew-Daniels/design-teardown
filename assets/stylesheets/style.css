@@ -333,6 +333,8 @@ h1 {
 .community-article-metadata-container {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	height: 150px;
 }
 
 .featured-article {
@@ -401,11 +403,13 @@ a > img {
 .latest-posts {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 25px;
 }
 
 .community-article {
 	flex-basis: 50%;
 	display: flex;
+	margin-top: 75px;
 }
 
 .more-link-container {
