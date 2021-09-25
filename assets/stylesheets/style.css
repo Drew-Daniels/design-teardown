@@ -330,6 +330,11 @@ h1 {
 	display: flex;
 }
 
+.community-article-metadata-container {
+	display: flex;
+	flex-direction: column;
+}
+
 .featured-article {
 	display: flex;
 }
@@ -391,6 +396,16 @@ h1 {
 
 a > img {
 	vertical-align: middle;
+}
+
+.latest-posts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.community-article {
+	flex-basis: 50%;
+	display: flex;
 }
 
 .more-link-container {
