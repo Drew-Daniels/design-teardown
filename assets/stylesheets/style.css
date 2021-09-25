@@ -78,9 +78,10 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	color: var(--p5-bgcolor);
 	font-size: 15px;
+	height: 500px;
 }
 
 nav {
@@ -110,6 +111,7 @@ a:visited {
 
 .horizontal-flex {
 	display: flex;
+	width: 100%;
 }
 
 .vertical-flex {
@@ -227,6 +229,8 @@ a:visited {
 
 .col-one-third {
 	width: 33.33%;
+	display: flex;
+	justify-content: center;
 }
 
 .col-two-thirds {
@@ -239,4 +243,31 @@ a:visited {
 
 .italic {
 	font-style: italic;
+}
+
+a:link.footer-link {
+	text-decoration: underline;
+}
+
+.footer-notes {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 50%;
+}
+
+.footer-note {
+	text-align: center;
+}
+
+.footer-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 60%;
+	margin: 25px 0;
+}
+
+.footer-item {
+	flex-basis: 30%;
 }
