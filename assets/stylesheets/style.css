@@ -140,6 +140,22 @@ a:visited {
 	border-radius: 5px;
 }
 
+.btn-big {
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: capitalize;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.aside-header {
+	text-align: center;
+}
+
+.aside-bodytext {
+	text-align: center;
+}
+
 .toolbar-base {
 	display: flex;
 	width: 100vw;
@@ -354,12 +370,18 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	max-width: 20%;
-	background-color: red;
 	padding: 0 50px;
+	height: 500px;
+	justify-content: space-around;
+	background-color: var(--p3-bgcolor);
+	position: relative;
 }
 
 .footnote {
+	margin-top: 10px;
 	font-weight: 100;
+	font-size: 12px;
+	text-align: center;
 	color: var(--p4-fontcolor)
 }
 
@@ -371,6 +393,11 @@ a:link.primary-anchor {
 a:link.secondary-anchor {
 	text-decoration: underline;
 	color: var(--p3-fontcolor);
+}
+
+a:link.aside-link {
+	text-decoration: underline;
+	color: var(--p5-fontcolor);
 }
 
 time {
