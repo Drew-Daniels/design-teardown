@@ -209,12 +209,20 @@ a:visited {
 .magazine-topics-list {
 	display: flex;
 	flex-wrap: wrap;
-	list-style: circle;
+	align-content: center;
+	justify-content: center;
 }
 
 .magazine-topics-item {
-	display: inline;
+	flex-basis: 9%;
 	font-size: 18px;
+	padding: .3em 0 1em 40px;
+	background-image: url('../images/icons/bullet-icon.svg');
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: 10% 30%;
+	display: flex;
+	align-items: center;
 }
 
 .col-one-third {
