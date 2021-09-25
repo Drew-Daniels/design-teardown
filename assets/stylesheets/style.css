@@ -68,6 +68,10 @@ table {
 	--p5-fontcolor: #fff;
 }
 
+strong {
+	font-weight: 900;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 	background-color: var(--p5-bgcolor);
@@ -366,6 +370,7 @@ h1 {
 
 .email-signup-container {
 	display: flex;
+	justify-content: center;
 }
 
 .email-signup-input {
@@ -396,14 +401,29 @@ h1 {
 	color: var(--p4-fontcolor)
 }
 
-a > img {
+a > img,
+button > img {
 	vertical-align: middle;
+}
+
+.smashing-workshops {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--p3-bgcolor);
+	align-items: center;
+	height: 600px;
+	padding-top: 50px;
 }
 
 .latest-posts {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 25px;
+}
+
+.workshops-image {
+	height: 400px;
 }
 
 .community-article {
