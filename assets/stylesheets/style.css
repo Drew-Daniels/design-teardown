@@ -200,8 +200,16 @@ a:visited {
     cursor: pointer;
 }
 
+.icon-extra-large {
+	height: 125px;
+}
+
 .icon-large {
 	height: 75px;
+}
+
+.icon-extra-small {
+	height: 16px;
 }
 
 .magazine-topics-list {
@@ -276,11 +284,24 @@ h1 {
 	text-transform: capitalize;
 }
 
+.topic {
+	text-transform: capitalize;
+}
+
+.author-name {
+	text-transform: capitalize;
+}
+
+.featured-section {
+	display: flex;
+
+}
+
 .featured-articles-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 70%;
+	max-width: 70%;
 	padding-left: 25px;
 	line-height: 24px;
 }
@@ -293,9 +314,13 @@ h1 {
 	display: flex;
 }
 
+.article-metadata-container {
+	width: 80%;
+}
+
 .author-picture-container {
 	display: flex;
-	width: 30%;
+	width: 20%;
 	transform: rotate(345deg);
 	justify-content: center;
 }
@@ -310,6 +335,32 @@ h1 {
 
 .article {
 	margin: 10px 0;
+}
+
+.email-signup-container {
+	display: flex;
+}
+
+.email-signup-input {
+	border-radius: 5px 0 0 5px;
+	width: 100px;
+}
+
+.email-signup-button {
+	border-radius: 0 5px 5px 0;
+}
+
+.newsletter-aside {
+	display: flex;
+	flex-direction: column;
+	max-width: 20%;
+	background-color: red;
+	padding: 0 50px;
+}
+
+.footnote {
+	font-weight: 100;
+	color: var(--p4-fontcolor)
 }
 
 a:link.primary-anchor {
